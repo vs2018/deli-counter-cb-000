@@ -6,7 +6,7 @@ def line(katz_deli)
   katz_deli.each_with_index do |customer, index|
     string << " #{index + 1} #{customer}"
   end
-  puts string if katz.deli.size != 0
+  return puts string
 end
 
 def take_a_number(katz_deli, name)
