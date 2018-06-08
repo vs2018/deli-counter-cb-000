@@ -7,6 +7,8 @@ end
 
 def take_a_number(array, name)
   array << name
-  puts "Welcome, #{name}. "
+  array.each do |customer
+    
+  end
   
 end
