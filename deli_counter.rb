@@ -10,8 +10,9 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
+  katz_deli << name
   length = katz_deli.size
-  puts "Welcome, #{name}. You are number #{length + 1} in line."
+  puts "Welcome, #{name}. You are number #{length} in line."
 end
 
 def now_serving(katz_deli)
