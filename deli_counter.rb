@@ -2,7 +2,7 @@
 
 def line(katz_deli)
   return puts "The line is currently empty." if katz_deli.size == 0
-  string = "The line is currently: "
+  string = "The line is currently:"
   katz_deli.each_with_index do |customer, index|
     string << " #{index + 1}. #{customer}"
   end
