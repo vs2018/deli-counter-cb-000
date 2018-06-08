@@ -10,11 +10,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  katz_deli << name
-  katz_deli.each_with_index do |customer, index|
-    "Welcome, #{custovemer}. You are number #{index + 1} in line."
-  end
-  
+  length = katz_deli.size
+  puts "Welcome, #{name}. You are number #{length}"
 end
 
 def now_serving(katz_deli)
