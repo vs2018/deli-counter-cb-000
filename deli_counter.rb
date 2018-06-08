@@ -7,7 +7,7 @@ end
 
 def take_a_number(array, name)
   array << name
-  array.each do |customer
+  array.each do |customer|
     
   end
   
